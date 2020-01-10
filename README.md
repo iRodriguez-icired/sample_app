@@ -40,3 +40,5 @@ $ rails server
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+
+You can see this app in https://mighty-stream-04145.herokuapp.com/
