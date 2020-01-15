@@ -4,3 +4,26 @@ ignacio:
   name: Ignacio
   email: irodriguez@iciredimpagados.com
   password_digest: <%= User.digest('foobar') %>
+  admin: true
+  
+tenlla:
+  name: Antonio Tenllado
+  email: atenllado@iciredimpagados.com
+  password_digest: <%= User.digest('foobar') %>
+  
+lana:
+  name: Lana Kane
+  email: hands@example.gov
+  password_digest: <%= User.digest('foobar') %>
+  
+malory:
+  name: Malory Archer
+  email: boss@example.gov
+  password_digest: <%= User.digest('foobar') %>
+  
+<% 30.times do |n| %>
+user_<%= n %>:
+  name: <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  password_digest: <%= User.digest('foobar') %>
+<% end %>
