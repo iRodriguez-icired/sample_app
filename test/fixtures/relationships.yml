@@ -1,0 +1,12 @@
+one:
+  follower: ignacio
+  followed: lana
+two:
+  follower: ignacio
+  followed: malory
+three:
+  follower: lana
+  followed: ignacio
+four:
+  follower: tenlla
+  followed: ignacio
